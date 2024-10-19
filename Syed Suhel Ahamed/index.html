@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Suhel Ahamed</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/382fa90f83.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="main_container">
+    <div id="header">
+        <div class="container">
+            <nav> 
+                <img src="./images/logo.jpg" class="logo">
+            
+                <ul id="sidemenu">
+                    <li><a href="# header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Website Designer</p>
+                <h1><span>Hi</span><br>Am<br> <span>Syed Suhel Ahamed</span></h1>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------ about ------------------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/Suhel.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>Im a Engineering graduate, web desiner,I like learning a new things about web pages and design a web page which my client can understand easyly,web deginerWeb Designer gives you the power to create beautiful and compelling videos,
+                        images, and HTML5 ads. Use animation and interactive elements to build out your creative vision, then scale your content for different sizes or audiences with responsive and dynamic workflows.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span> UI</span><br>Designing web interfaces</li>
+                            <li><span> WEB DEVELOPMENT</span><br> Web app development</li>
+                            <br><span> Skills</span><br> -> HTML5<br> -> CSS<br> -> JavaScript<br> -> Responsive Web design<br> -> FIGMA<br> -> Bootstrap<br> -> Web Development<br> </li>
+                            <li><span> Projects</span><br> -> Portfolio Designer<br> -> Travel website <br> -> GYM website</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span> 2021</span><br> Learned UI/web design </li>
+                            <li><span> 2022 </span><br> Learned Web technology</li>
+                            <li><span> 2023</span><br> Learned in "FIGMA"</li>
+                            <li><span>2024</span><br> Working as Associate Analyst in "GlobalLogic" </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span> 2017-2018</span><br>Completed schooling </li>
+                            <li><span> 2018-2020</span><br> Completed +1 and +2 </li>
+                            <li><span> 2020-2024</span><br> Completed  Engineering in CSE-IOT</li>
+                            <li><span>2024-current</span><br> Working in "GlobalLogic" , As "Associate Analyst</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------services------------------------------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <br>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <h2> Website Designer</h2>
+                    <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                    <h2>Portfolio Designer</h2>
+                    <p>Portfolios are also helpful for independent contractors, consultants, or business owners who need to provide work samples to potential clients. Outside of a job or client search, archiving samples of your work to a portfolio is a great way to keep track of your accomplishments and make note of when you acquired key competencies.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------portfolio--------------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/port.png">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p> Web design is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience.
+                        </p>
+                        <a href="#"><i class="fa-brands fa-html5"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">see more</a>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Travel.png">
+                    <div class="layer">
+                        <h3>Travel WebSite</h3>
+                        <p> A travel WebSite is a website that provides travel reviews, trip fares, or a combination of both. Over 1.5 billion people book travel per year, 70% of which is done online.
+                        </p>
+                        <a href="https://travelwedsite.netlify.app/"><i class="fa-brands fa-html5"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://travelwedsite.netlify.app/" class="btn">see more</a>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/Gym.png">
+                    <div class="layer">
+                        <h3>GYM WebSite</h3>
+                        <p> Your gym website is where members will view your fitness class schedule, make a booking, and find out what services you offer. A great fitness website example is F45 Training. It has a clean and minimalist design with compelling messaging. When you land on the site, you can click ‘New to F45?’, ‘Workouts,’ and ‘Why F45 Works’.
+                        </p>
+                        <a href="https://royal-fitness-center.netlify.app/"><i class="fa-brands fa-html5"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://royal-fitness-center.netlify.app/" class="btn">see more</a>
+
+        </div>
+    </div>
+    <!------------------------------------------contact------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle"> Contact me</h1>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i> suhail9700sd@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 7989132679</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61551392697474&mibextid=ZbWKwL"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/suhework?igshid=OGQ5ZDc2ODk2ZA=="> <i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://whatsapp.com/"> <i class="fa-brands fa-square-whatsapp"></i></a>
+                    </div>
+                    <a href="" class="btn">Ok</a>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright @Syed Suhel Ahamed Made with VS code <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    </div>
+</body>
+
+</html>
